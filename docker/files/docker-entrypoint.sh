@@ -44,7 +44,7 @@ if [[ ${UPDATE_MODS_ON_START:-} == "true" ]]; then
   ${INSTALLED_DIRECTORY}/docker-update-mods.sh
 fi
 
-${INSTALLED_DIRECTORY}/docker-dlc.sh
+
 
 EXEC=""
 if [[ $(id -u) == 0 ]]; then

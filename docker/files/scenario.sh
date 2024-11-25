@@ -44,4 +44,5 @@ exec /opt/factorio/bin/x64/factorio \
   --server-adminlist "$CONFIG/server-adminlist.json" \
   --rcon-port "$RCON_PORT" \
   --rcon-password "$(cat "$CONFIG/rconpw")" \
-  --server-id /factorio/config/server-id.json
+  --server-id /factorio/config/server-id.json \
+  --mod-directory "$MODS" \
